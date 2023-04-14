@@ -9,6 +9,8 @@ nav{
     background-color: brown;
     display: flex;
     justify-content: space-around;
+    position: relative;
+    height: 50px;
 }
 nav ul{
     margin: 0;
@@ -40,3 +42,19 @@ video{
 .pres{
     width: 40%;
 }
+nav img{
+    position: absolute;
+    top: -20px;
+}
+.hero a{
+    position: absolute;
+    bottom: 10%; left: 50%;  /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    z-index: 1;
+    
+}
+.hero{
+    position: relative;
+    z-index: -2;
+}
+
