@@ -1,12 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Un visible</title>
+    <link rel="stylesheet" href="style.css">
+    <title>UN VISBLE</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">objet</a></li>
+                <li><a href="#">Faire un Don</a></li>
+            </ul>
+            <img src="images/Logo-Unvisible.png" alt="logo">
+            <ul>
+                <li><a href="#">Demande d'intervention</a></li>
+                <li><a href="#">Acualité</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <video src="images/adjust-mirror-effect.mp4" autoplay loop></video>
+            <a href="#">Voir plus</a>
+        </div>
+    </header>
+    <section class="pres-produit">
+        <div class="pres">
+            <img src="images/ -6.jpg" alt="" id="produit">
+        </div>
+        <div class="pres">
+             <a href="#">Partager</a>
+             <h1>Unvisible</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis labore ipsam sint, aspernatur dignissimos repudiandae repellat tempora quas commodi distinctio. Deserunt quam, velit modi iste enim aliquid repellat aut!</p>
+             <a href="">Précomander</a>
+        </div>
+    </section>
+    <section class="jauge">
+            <h2>Nombre de gens qui ont participés </h2>
+            <div class="prem-barre">
+                <div class="deux-barre"></div>
+            </div>
+    </section>
+    <section class="payment">
+        <div>
+            <img src="" alt="cadeaux 1">
+            <img src="" alt="cadeaux 2">
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quasi autem quod repellendus quisquam. Quis eligendi quisquam facere debitis, neque exercitationem placeat, sapiente deserunt voluptatum doloremque qui enim blanditiis repellat!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quasi autem quod repellendus quisquam. Quis eligendi quisquam facere debitis, neque exercitationem placeat, sapiente deserunt voluptatum doloremque qui enim blanditiis repellat!</p>
+        </div>
+        <a href="">Precommander</a>
+    </section>
+    <section class="avis">
+        <h2>Ils ont testé</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore error animi, fugit veritatis voluptatem similique dolor doloribus quod quisquam ex cumque maxime, a ad totam, officiis culpa sunt mollitia? Molestiae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore error animi, fugit veritatis voluptatem similique dolor doloribus quod quisquam ex cumque maxime, a ad totam, officiis culpa sunt mollitia? Molestiae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore error animi, fugit veritatis voluptatem similique dolor doloribus quod quisquam ex cumque maxime, a ad totam, officiis culpa sunt mollitia? Molestiae.</p>
+    </section>
+    <section class="remerciement">
+        <h3>Merci ! </h3>
+        <p class="Pseudo">Apopo-callista-Loulou-M.Meyer</p>
+    </section>
+    <section class="rdv">
+        <h2>Demande de RDV</h2>
+        <div class="formulaire">
+            <form action="/ma-page-de-traitement" method="post"> 
+                <fieldset>  
+                    <!-- permet le regroupement des infos (encadremant) -->
+                <div>
+                    <label for="name">Nom : </label>
+                    <!-- mm for que id pour lier label et input -->
+                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <!-- required  obliger de remplir le champs -->
+                </div>
+                <div>
+                    <label for="name">Prenom : </label>
+                    <!-- mm for que id pour lier label et input -->
+                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <!-- required  obliger de remplir le champs -->
+                </div>
+                <div>
+                    <label for="mail">E-mail :  </label>
+                    <input type="email" id="mail" name="user_mail" maxlength="30" value="text@gmail.com" >
+                    <!-- value attribu un valeur par défault -->
+                    <!-- readonly = empeche d'éffacer par default la valeur -->
+                </div>
+                <div>
+                    <label for="name">Profession </label>
+                    <!-- mm for que id pour lier label et input -->
+                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <!-- required  obliger de remplir le champs -->
+                </div>
+                <div>
+                    <label for="name">Établissement </label>
+                    <!-- mm for que id pour lier label et input -->
+                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <!-- required  obliger de remplir le champs -->
+                </div>
+                <div>
+                    <label for="name">Département </label>
+                    <!-- mm for que id pour lier label et input -->
+                    <input type="text" id="name" name="user_name" maxlength="15" placeholder="9300" required>
+                    <!-- required  obliger de remplir le champs -->
+                </div>
+                <div>
+                    <label for="name">Nombre d'élèves </label>
+                    <!-- mm for que id pour lier label et input -->
+                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <!-- required  obliger de remplir le champs -->
+                </div>
+        
+                <div>
+                    <p>Classe</p>
+                    <select name="Classe" >
+                        <option value="Classe" disabled>Aucun</option>
+                        <option value="CE1">CE1</option>
+                        <option value="CE2">CE2</option>
+                        <option value="CM1">CM1</option>
+                        <option value="CM2">CM2</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date">Date de l'intervention</label>
+                    <!-- mm for que id pour lier label et input -->
+                    <input type="date" id="date" name="date" maxlength="15" required>
+                    <!-- required  obliger de remplir le champs -->
+                </div>
+                
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" cols="30" rows="5" placeholder="Écris une déscription"></textarea>
+                <!-- cols =largeur /rows =nb de ligne (placeholder mettre une légende qui disparait quand on clique sur l'encadré) -->
+            </div>
+            <div class="button">
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="reset"> 
+            </div>
+            </fieldset>
+        </div>
+    </section>
+    <section class="question">
+        <h2>Questions fréquentes</h2>
+    </section>
+    <section class="contact">
+
+    </section>
 </body>
 </html>
