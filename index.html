@@ -146,6 +146,67 @@
     </section>
     <section class="contact">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, magnam sit possimus quia corporis quas corrupti iste? Dolorum totam enim, adipisci, incidunt quam voluptate sint odio voluptatibus, delectus omnis excepturi.</p>
+        <button class="plus"></button>
     </section>
+    <section class="News">
+        <h2>Les Actualités</h2>
+        <div class="slide-container">
+            <div class="custom-slider fade">
+                <div class="slide-index">1 / 3</div>
+                <img class="slide-img" src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide1.jpg">
+                <div class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">2 / 3</div>
+                <img class="slide-img" src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide2.jpg">
+                <div class="slide-text">Nullam luctus aliquam ornare. </div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-index">3 / 3</div>
+                <img class="slide-img" src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide3.jpg">
+                <div class="slide-text">Praesent lobortis libero sed egestas suscipit.</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div class="slide-dot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <section class="partenaires">
+        <h3>Partenaire</h3>
+        <div class="partenaire">
+            <img src="images/976px-Ministere-Education-Nationale-Jeunesse.png" alt="" id="part">
+            <img src="images/logo-marionlamaintendue-top-1.png" alt="" id="part">
+            <img src="images/3020.jpg" alt="" id="part">
+        </div>
+    </section>
+    <!--Footer-->
+    <div class="containerdeux">
+        <div class="infodeux" >
+             <p>©2021 Animinoïdes website</p>
+             <nav class="foot">
+                 <ul id="menudeux">
+                 <li><a href="#" id="exclu">Legal notice</a></li>
+                 <li><a href="#" >which is us ?</a></li>
+                 </ul>
+                 </nav>
+         </div>
+     </div>
+     <div class="joindre">
+         <p>Join us</p>
+     </div>
+     <div class="containertrois">
+         <div class="reseaux">
+             <div class="img">
+             <img src="images/logo-fb.png" class="icons">
+             <img src="images/logo-insta.png" class="icons">
+             <img src="images/logo-twitter.png" class="icons">
+         </div>
+     </div>
+    <script src="script.js"></script>
 </body>
 </html>
