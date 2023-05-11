@@ -130,14 +130,7 @@ nav img{
      background-color: var(--progress);
 }
   
-.donspourcentage {
-    /*width: 60%;*/
-    /*animation: mymove 5s 1;*/
-}
-/*@keyframes mymove {
-    0%   {width: 0%;}
-    100% {width: 60%;}
-  } */
+
 .jauge{
     
     position: relative;
