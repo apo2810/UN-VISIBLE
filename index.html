@@ -11,43 +11,44 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">objet</a></li>
-                <li><a href="#">Faire un Don</a></li>
+                <li><a href="#pres-produit">objet</a></li>
+                <li><a href="#dons">Faire un Don</a></li>
             </ul>
             <img src="assets/images/logo-unvisible.png" alt="logo de unvisible">
             <ul>
-                <li><a href="#">Demande d'intervention</a></li>
-                <li><a href="#">Actualité</a></li>
+                <li><a href="#questionnaire">Demande d'intervention</a></li>
+                <li><a href="#news">Actualité</a></li>
             </ul>
         </nav>
         <div class="hero">
             <video src="assets/video/video-unvisible.mp4" autoplay loop></video>
-            <a href="#">Voir plus</a>
+            <a href="#pres-produit">Voir plus</a>
         </div>
     </header>
-    <section class="pres-produit">
+    <section class="pres-produit" id="pres-produit">
         <div class="pres">
             <img src="assets/images/ -6.jpg" alt="" id="produit">
         </div>
         <div class="pres">
-             <a href="#">Partager</a>
+             <a href="#" class="ctapartage">Partager</a>
              <h1>UnVisible</h1>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officiis labore ipsam sint, aspernatur dignissimos repudiandae repellat tempora quas commodi distinctio. Deserunt quam, velit modi iste enim aliquid repellat aut!</p>
-             <a href="">Précomander</a>
+             <a href="#" class="ctachat">Précomander</a>
         </div>
     </section>
-    <section class="jauge">
+    <section class="jauge" id="dons">
             <h2>Nombre de gens qui ont participés </h2>
-            <div class="prem-barre">
-                <div class="deux-barre"></div>
+            <div class="progressbar-wrapper">
+                <div title="downloading" class="progressbar donspourcentage" id="donspourcentage"><span id="pourcentage">1</span>%</div>
+               </div>
             </div>
     </section>
     <section class="payment">
-        <div>
-            <img src="" alt="cadeaux 1">
-            <img src="" alt="cadeaux 2">
+        <div class="cadeaux">
+            <img src="assets/images/logo-gouvernementnumero.jpg" alt="cadeaux 1">
+            <img src="assets/images/logo-marionlamaintendue.png" alt="cadeaux 2">
         </div>
-        <div>
+        <div class="txtcadeaux">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quasi autem quod repellendus quisquam. Quis eligendi quisquam facere debitis, neque exercitationem placeat, sapiente deserunt voluptatum doloremque qui enim blanditiis repellat!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quasi autem quod repellendus quisquam. Quis eligendi quisquam facere debitis, neque exercitationem placeat, sapiente deserunt voluptatum doloremque qui enim blanditiis repellat!</p>
         </div>
@@ -63,7 +64,7 @@
         <h3>Merci ! </h3>
         <p class="Pseudo">Apopo-callista-Loulou-M.Meyer</p>
     </section>
-    <section class="rdv">
+    <section class="rdv" id="questionnaire">
         <h2>Demande de RDV</h2>
         <div class="formulaire">
             <form action="#" method="post"> 
@@ -148,7 +149,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, magnam sit possimus quia corporis quas corrupti iste? Dolorum totam enim, adipisci, incidunt quam voluptate sint odio voluptatibus, delectus omnis excepturi.</p>
         <button class="plus"></button>
     </section>
-    <section class="News">
+    <section class="News" id="news">
         <h2>Les Actualités</h2>
         <div class="slide-container">
             <div class="custom-slider fade">
