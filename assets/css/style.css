@@ -134,7 +134,7 @@ nav img{
 .jauge{
     
     position: relative;
-    margin: auto;
+    margin: 120px 0px;
 }
 
 /*Achat*/
@@ -232,6 +232,10 @@ nav img{
     flex-direction: row;
     display: flex;
     justify-content: center;
+}
+/* avis */
+.avis{
+    margin: 120px 0;
 }
 .foot{
     background-color: transparent; 
