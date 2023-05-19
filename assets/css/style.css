@@ -21,6 +21,9 @@ body,html{
 h1{
     font-weight: bold;
 }
+h2{
+    margin-left: 20px;
+}
 header,nav{
     width: 100%;
 }
@@ -46,6 +49,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
+    border-radius: 5px;
 }
 
 nav a{
@@ -147,6 +151,12 @@ nav img{
 }
 .payment .cadeaux img{
     width: 50%;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.txtcadeaux p {
+    margin-top: 100px;
+    
 }
 /*Slider*/
 .custom-slider { display: none; }
@@ -257,7 +267,6 @@ nav img{
     font-size: 10px;
     text-decoration: none;
     color: #979494 ;
-    margin-left: 0px ;
     flex-direction: row;
     margin-left: 50px;
 }
@@ -274,7 +283,6 @@ nav img{
     font-size: 10px;
     flex: 1;
     display: flex;
-    font-family: 'Rajdhani', sans-serif;
 }
 #menudeux li {
     flex: 1;
@@ -282,14 +290,13 @@ nav img{
     flex-direction: row;
 }
 #menudeux li a {
-    color: #D3EBF2;
+    color: #d88913;
     padding: 0 15px;  
     text-decoration: none;/* enlever le soulignement et le bleu du liens */
     flex: 1;
     display: flex;
     white-space:nowrap;
     flex-direction: row;
-    font-family: 'Rajdhani', sans-serif;
 }
 .reseaux{
     font-size: 15px;
@@ -297,12 +304,11 @@ nav img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Rajdhani', sans-serif;
 }
 .joindre{
     flex-direction: row;
     text-decoration: overline !important;
-    text-decoration-color: #5cbcda !important;
+    text-decoration-color: #d88913 !important;
     text-decoration-style: solid;
     justify-content: center;
     display: flex;
