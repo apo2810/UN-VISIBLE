@@ -20,15 +20,20 @@ body,html{
 }
 h1{
     font-weight: bold;
+    color: #5b0000;
 }
 h2{
     margin-left: 20px;
+    color: #5b0000;
+}
+h3{
+    color: #5b0000;
 }
 header,nav{
     width: 100%;
 }
 nav{
-    background-color: rgb(207, 199, 199);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -54,7 +59,7 @@ a{
 
 nav a{
 
-    color: rgb(94, 0, 9);
+    color: #5b0000;
 }
 nav a:hover{
     font-weight: bold;
@@ -76,6 +81,10 @@ video{
 }
 .pres{
     width: 40%;
+    
+}
+h3{
+    margin-bottom: 10px;
 }
 .ctapartage{
     float: right;
@@ -85,6 +94,12 @@ video{
     color: #ffffff;
 }
 .ctachat{
+    background-color: #5b0000;
+    border: #111111 1px solid;
+    padding: 5px;
+    color: #ffffff;
+}
+.ctacommande{
     background-color: #5b0000;
     border: #111111 1px solid;
     padding: 5px;
@@ -138,16 +153,25 @@ nav img{
 .jauge{
     
     position: relative;
-    margin: 120px 0px;
+    margin: 120px ;
 }
 
 /*Achat*/
 .payment{
     display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
+    margin-top: 120px;
+}
+.contenu{
+    display: flex;
     margin-top: 50px;
-    justify-content: space-around;
+    justify-content: center;
+}
+.precommander{
+    display: flex;
+    justify-content: center;
 }
 .payment .cadeaux img{
     width: 50%;
@@ -158,12 +182,154 @@ nav img{
     margin-top: 100px;
     
 }
-/*Slider*/
+/*Avis*/
+.avis{
+    margin:120px 20px;
+}
+.aviscont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.test{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.avis p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px;
+
+}
+/*remerciement*/
+.remerciement{
+    display: flex;
+    justify-content: center;
+}
+.merci{
+    display: flex;
+    justify-content: center;
+}
+.Pseudo{
+    margin-top: 5px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100vh;
+    height: 60px;
+    
+}
+/* Texte défilant */
+.Pseudo div {
+    position: absolute;
+    min-width: 100%; /* au minimum la largeur du conteneur */
+  }
+   
+  .Pseudo div span, 
+  .Pseudo div:after {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    top:0;
+  }
+   
+  .Pseudo div span {
+    animation: defilement 10s infinite linear;
+  }
+   
+  .Pseudo div:after {
+    position: absolute;
+    top:0; left:0;
+    content:attr(data-text);
+    animation: defilement2 10s infinite linear;
+  }
+   
+  @keyframes defilement {
+    0% { margin-left: 0; }
+    100% { margin-left: -100%; }
+  }
+   
+  @keyframes defilement2 {
+    0% { margin-left: 100%; }
+    100% { margin-left: 0%; }
+  }
+/*rdv*/
+.demande{
+    display: flex;
+    justify-content: center;
+}
+
+.groupe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    border: #ffffff 4px solid;
+    border-radius: 10px;
+    background-color: #e17055;
+    color: aliceblue;
+    width: 400px;
+}
+.button{
+    margin: 20px;
+}
+ .button :hover{
+    background-color: #5b0000;
+    border-radius: 4px;
+    border: none;
+    color: aliceblue;
+}
+.question{
+    margin: 20px;
+    
+}
+/*questions frequente*/
+.questions{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+/*contacte*/
+.contact{
+    margin-top: 120px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.reseauxun{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+.reseauxdeux{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+.picto{
+    margin-right: 20px;
+    width: 5%;
+}
+.titre{
+    justify-content: center;
+    display: flex;
+}
+/*Slider news*/
+.News{
+    margin-top: 120px;
+}
 .custom-slider { display: none; }
 .slide-container {
     max-width: 800px;
     position: relative;
     margin: auto;
+    border: solid 1px #5b0000;
 }
 .prev, .next {
     cursor: pointer;
@@ -188,7 +354,8 @@ nav img{
 }
 .slide-text {
     position: absolute;
-    color: #ffffff;
+    color: #5b0000;
+    font-weight:bold ;
     font-size: 15px;
     padding: 15px;
     bottom: 15px;
@@ -243,10 +410,7 @@ nav img{
     display: flex;
     justify-content: center;
 }
-/* avis */
-.avis{
-    margin: 120px 0;
-}
+
 .foot{
     background-color: transparent; 
 }
@@ -290,7 +454,7 @@ nav img{
     flex-direction: row;
 }
 #menudeux li a {
-    color: #d88913;
+    color: #e17055;
     padding: 0 15px;  
     text-decoration: none;/* enlever le soulignement et le bleu du liens */
     flex: 1;
@@ -308,7 +472,7 @@ nav img{
 .joindre{
     flex-direction: row;
     text-decoration: overline !important;
-    text-decoration-color: #d88913 !important;
+    text-decoration-color: #e17055 !important;
     text-decoration-style: solid;
     justify-content: center;
     display: flex;
