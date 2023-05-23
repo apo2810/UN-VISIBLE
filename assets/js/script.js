@@ -1,3 +1,14 @@
+/*Bouton plus*/ 
+/*on fait disparaitre la deuxième rangé de cards */
+$('.deux').hide();
+
+
+/*Boutton au click fait apparaitre la deuxième rangé de cards */
+$('.plus').click(function(){
+    $(".deux").fadeIn("slow");
+    $(".plus").hide();
+});
+
 /*jauge */
 var pourcentage = 0;
 function progression(){
