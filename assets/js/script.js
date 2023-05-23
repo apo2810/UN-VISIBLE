@@ -1,14 +1,15 @@
 /*Bouton plus*/ 
-/*on fait disparaitre la deuxième rangé de cards */
-$('.deux').hide();
+$('button').click(function(){
+  $('.deux').toggle();
 
-
-/*Boutton au click fait apparaitre la deuxième rangé de cards */
-$('.plus').click(function(){
-    $(".deux").fadeIn("slow");
-    $(".plus").hide();
+  if($('.deux').css("display") == "block"){
+      $('.deux').css("display", "flex");
+      $('button').text("Moin d'infos");
+  }else{
+      $('button').text("Plus d'infos");
+  }
+  
 });
-
 /*jauge */
 var pourcentage = 0;
 function progression(){

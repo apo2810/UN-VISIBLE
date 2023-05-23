@@ -108,18 +108,13 @@ nav img{
     top: -20px;
     width: 20%;
 }
-.plus{
-    background-color:#e17055;
-    border: #ffffff 1px solid;
-    font-size: 15px;
-    padding: 5px;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    text-align: center;
+button{
+    display: block;
+    margin: 0 auto;
     
+}
+ .deux{
+    display: none;
  }
 .hero a{
     position: absolute;
