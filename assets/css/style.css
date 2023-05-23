@@ -12,7 +12,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 body,html{
     padding: 0;
     margin: 0;
@@ -56,7 +55,6 @@ a{
     text-decoration: none;
     border-radius: 5px;
 }
-
 nav a{
 
     color: #5b0000;
@@ -155,7 +153,6 @@ nav img{
     position: relative;
     margin: 120px ;
 }
-
 /*Achat*/
 .payment{
     display: flex;
@@ -193,16 +190,13 @@ nav img{
 }
 .test{
     justify-content: center;
-    display: flex;
-    
+    display: flex;  
 }
-
 .avis p{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 20px 20px;
-
 }
 /*remerciement*/
 .remerciement{
@@ -219,49 +213,46 @@ nav img{
     overflow: hidden;
     position: relative;
     width: 100vh;
-    height: 60px;
-    
+    height: 60px;    
 }
 /* Texte défilant */
 .Pseudo div {
     position: absolute;
     min-width: 100%; /* au minimum la largeur du conteneur */
-  }
+}
    
-  .Pseudo div span, 
-  .Pseudo div:after {
+.Pseudo div span, 
+.Pseudo div:after {
     position: relative;
     display: inline-block;
     white-space: nowrap;
     top:0;
-  }
+}
    
-  .Pseudo div span {
+.Pseudo div span {
     animation: defilement 10s infinite linear;
-  }
+}
    
-  .Pseudo div:after {
+.Pseudo div:after {
     position: absolute;
     top:0; left:0;
     content:attr(data-text);
     animation: defilement2 10s infinite linear;
-  }
+}
    
-  @keyframes defilement {
+@keyframes defilement {
     0% { margin-left: 0; }
     100% { margin-left: -100%; }
-  }
-   
-  @keyframes defilement2 {
+}
+@keyframes defilement2 {
     0% { margin-left: 100%; }
     100% { margin-left: 0%; }
-  }
+}
 /*rdv*/
 .demande{
     display: flex;
     justify-content: center;
 }
-
 .groupe{
     display: flex;
     justify-content: center;
@@ -283,8 +274,7 @@ nav img{
     color: aliceblue;
 }
 .question{
-    margin: 20px;
-    
+    margin: 20px;   
 }
 /*questions frequente*/
 .questions{
@@ -418,13 +408,11 @@ nav img{
     display: flex;
     justify-content:center;
     margin-top: 300px;
-    
 }
 .containertrois{
     display: flex;
     justify-content:center;
     margin-top: 0px;
-    
 }
 .infodeux{
     display: flex;
