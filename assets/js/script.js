@@ -1,4 +1,4 @@
-/*Bouton plus*/ 
+/*Bouton plus 
 $('button').click(function(){
   $('.deux').toggle();
 
@@ -9,7 +9,7 @@ $('button').click(function(){
       $('button').text("Plus d'infos");
   }
   
-});
+});*/
 /*jauge */
 var pourcentage = 0;
 function progression(){

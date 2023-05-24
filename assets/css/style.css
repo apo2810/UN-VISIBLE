@@ -79,7 +79,6 @@ video{
 }
 .pres{
     width: 40%;
-    
 }
 h3{
     margin-bottom: 10px;
@@ -111,7 +110,6 @@ nav img{
 button{
     display: block;
     margin: 0 auto;
-    
 }
  .deux{
     display: none;
@@ -154,8 +152,6 @@ button{
 .progressbar[title="downloading"] {
      background-color: var(--progress);
 }
-  
-
 .jauge{
     
     position: relative;
@@ -185,7 +181,6 @@ button{
 }
 .txtcadeaux p {
     margin-top: 100px;
-    
 }
 /*Avis*/
 .avis{
@@ -312,7 +307,7 @@ button{
 }
 .picto{
     margin-right: 20px;
-    width: 5%;
+    width: 60%;
 }
 .titre{
     justify-content: center;
