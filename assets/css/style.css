@@ -8,6 +8,11 @@
     src: url("../font/Inter/Inter-Bold.ttf");
     font-weight: bold;
 }
+@font-face{
+    font-family: "Rubik_dirt";
+    src: url("../font/Rubik_Dirt/RubikDirt-Regular.ttf");
+    font-weight: bold;
+}
 /*code général*/
 html {
     scroll-behavior: smooth;
@@ -24,6 +29,7 @@ h1{
 h2{
     margin-left: 20px;
     color: #5b0000;
+    font-family: "Rubik_dirt";
 }
 h3{
     color: #5b0000;
