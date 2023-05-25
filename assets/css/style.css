@@ -285,7 +285,12 @@ button{
 .question{
     margin: 20px;   
 }
-
+/*tache*/
+.tache{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
 /*contacte*/
 .contact{
     margin-top: 120px;
