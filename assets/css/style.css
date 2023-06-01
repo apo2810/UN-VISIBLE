@@ -170,6 +170,7 @@ button{
     width: 90%;
     margin: 0 auto;
     margin-top: 120px;
+    background-color: #ea7d00;
 }
 .contenu{
     display: flex;
