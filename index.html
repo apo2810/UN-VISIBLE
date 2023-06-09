@@ -9,13 +9,13 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="displayflex">
+            <ul class="displayflex">
                 <li><a href="#pres-produit">Objet</a></li>
                 <li><a href="#dons">Faire un Don</a></li>
             </ul>
-            <img src="assets/images/logo-unvisible.png" alt="logo de unvisible">
-            <ul>
+            <img src="assets/images/logo-unvisible.png" alt="logo de unvisible" class="logo">
+            <ul class="displayflex">
                 <li><a href="#questionnaire">Demande d'intervention</a></li>
                 <li><a href="#news">Actualité</a></li>
             </ul>
@@ -25,7 +25,7 @@
             <a href="#pres-produit">Voir plus</a>
         </div>
     </header>
-    <section class="pres-produit" id="pres-produit">
+    <section class="pres-produit displayflex" id="pres-produit">
         <div class="pres">
             <img src="assets/images/untitled.jpg" alt="" id="produit">
         </div>
@@ -58,10 +58,10 @@
                </div>
             </div>
     </section>
-    <section class="remerciement">
+    <section class="remerciement displayflex">
         <div>
-        <div class="merci">
-        <h3>Merci ! </h3>
+        <div class="merci title">
+        <h3>Merci !</h3>
         </div>
         <div class="Pseudo">
             <div data-text="Apopo-callista-Loulou-M.Meyer-Mme.Flory-Mamandu75-M.Barbe"><span>Apopo-callista-Loulou-M.Meyer-Mme.Flory-Mamandu75-M.Barbe</span></div>
@@ -69,10 +69,10 @@
     </section>
     
     <section class="payment" id="payment">
-        <div class="titre">
+        <div class="title">
         <h2>Précommander UnVisible</h2>
         </div>
-        <div class="contenu">
+        <div class="contenu displayflex">
         <div class="cadeaux">
             <img src="assets/images/untitled+cartes.jpg" alt="cadeaux 1">
             <img src="assets/images/untitled.png" alt="cadeaux 2">
@@ -90,10 +90,10 @@
     <section class="avis">
         
         <div class="">
-        <div class="test">
+        <div class="title displayflex">
         <h2>Ils ont testé</h2>
         </div>
-        <div class="aviscont">
+        <div class="aviscont displayflex">
         <p>Aurelie<br/>
             Ce jeu est parfait pour le développement des enfants, il est simple et interactif.</p>
         <p>Evelyne<br/>
@@ -108,7 +108,7 @@
         <img src="assets/images/tache.png" alt="tache" class="tache">
     </div>
     <section class="rdv" id="questionnaire">
-        <div class="demande">
+        <div class="demande title">
         <h2>Demande de RDV</h2>
         </div>
         <div class="formulaire">
@@ -188,7 +188,7 @@
     </section>
     
     <section class="contact">
-        <div class="titre">
+        <div class="title">
         <h2>Contactez Moi</h2>
         </div>
         <div class="reseauxun">
@@ -202,7 +202,7 @@
         </div>
     </section>
     <section class="News" id="news">
-        <div class="titre">
+        <div class="title">
         <h2>Les Actualités</h2>
         </div>
         <div class="slide-container">
@@ -235,37 +235,79 @@
         </div>
     </section>
     <section class="partenaires">
-        <div class="titre">
+        <div class="title">
         <h2>Partenaires</h2>
         </div>
         <div class="partenaire">
             <img src="assets/images/logo-Ministere-Education-Nationale-Jeunesse.png" alt="logo Ministere education nationale jeunesse" id="part">
-            <img src="assets/images/logo-marionlamaintendue.png" alt="logo de l'association marion la main tendue " id="part">
-            <img src="assets/images/logo-gouvernementnumero.jpg" alt="logo du numéro non au harcèlement" id="part">
+            <img src="assets/images/logo-parle.png" alt="logo de l'association marion la main tendue " id="part">
+            <img src="assets/images/logo-gouvernementnumero.jpg" alt="logo du numéro non au harcèlement" id="part" classe="parle">
         </div>
     </section>
     <!--Footer-->
-    <div class="containerdeux">
-        <div class="infodeux" >
-             <p>©2021 UNVisible website</p>
-             <nav class="foot">
-                 <ul id="menudeux">
-                 <li><a href="#" id="exclu">Mentions légales</a></li>
-                 <li><a href="#" >Qui somme nous ?</a></li>
-                 </ul>
-                 </nav>
-         </div>
-     </div>
-     <div class="joindre">
-         <p>Contactez nous</p>
-     </div>
-     <div class="containertrois">
-         <div class="reseaux">
-             <div class="img">
-             <img src="assets/images/picto-insta.png" class="icons">
-             <img src="assets/images/picto-email.png" class="icons">
-         </div>
-     </div>
-    <script src="assets/js/script.js"></script>
-</body>
+   <!----> <div class="pg-footer">
+        <footer class="footer">
+          <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+            <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+          </svg>
+          <div class="footer-content">
+            <div class="footer-content-column">
+              <div class="footer-logo">
+                <a class="footer-logo-link" href="#">
+                  <img src="assets/images/logo-unvisible.png" class="hidden-link-text logo">
+                </a>
+              </div>
+              <div class="footer-menu">
+                <h2 class="footer-menu-name"> Nous contacter</h2>
+                <ul id="menu-get-started" class="footer-menu-list">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                    <a href="#">@ : Unvisible@orange.fr</a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                    <a href="#">Unvisible : +33 7653427</a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                    <a href="#">Parle je t'écoute : +33 7 87 81 45 71 </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-content-column">
+              <div class="footer-menu">
+                <h2 class="footer-menu-name"> Nous Suivre</h2>
+                <ul id="menu-company" class="footer-menu-list">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="#">Contact</a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                    <a href="#">Instagram : UnVisible</a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                    <a href="#">Twitter : UnVisible02</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-menu">
+                <h2 class="footer-menu-name"> Legal</h2>
+                <ul id="menu-legal" class="footer-menu-list">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+                    <a href="#">Privacy Notice</a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="#">Terms of Use</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <div class="footer-copyright">
+            <div class="footer-copyright-wrapper">
+              <p class="footer-copyright-text">
+                <a class="footer-copyright-link" href="#" target="_self"> ©2020. | Designed By: Pooja Nahelia. | All rights reserved. </a>
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="assets/js/script.js"></script>
+    </body>
 </html>
