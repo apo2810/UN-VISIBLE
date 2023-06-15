@@ -21,6 +21,7 @@ body,html{
     padding: 0;
     margin: 0;
     font-family: "inter";
+    font-size: 20px;
 }
 .title{
     justify-content: center;
@@ -31,9 +32,10 @@ h1{
     color: #5b0000;
 }
 h2{
-    margin-left: 20px;
+    margin-left: 40px;
     color: #5b0000;
     font-family: "Rubik_dirt";
+    font-size: 30px;
 }
 h3{
     color: #5b0000;
@@ -109,9 +111,11 @@ h3{
 }
 .ctacommande{
     background-color: #5b0000;
-    border: #111111 1px solid;
     padding: 5px;
     color: #ffffff;
+}
+.ctacommande :hover{
+    background-color: #e17055;
 }
 nav img{
     position: absolute;
@@ -171,14 +175,13 @@ button{
 /*Achat*/
 .payment{
     flex-direction: column;
-    width: 90%;
-    margin: 0 auto;
     margin-top: 120px;
     background-color: #ea7d00;
+    height: 100%;
 }
 .contenu{
-    margin-top: 50px;
     justify-content: center;
+    margin: 50px 120px;
 }
 .precommander{
     justify-content: center;
@@ -190,6 +193,8 @@ button{
 }
 .txtcadeaux p {
     margin-top: 100px;
+    color: #fff;
+    font-size: 20px;
 }
 /*Avis*/
 .avis{
@@ -201,6 +206,11 @@ button{
 }
 .avis p{
     margin: 20px 20px;
+}
+.peinture{
+   width: 80%;
+   margin: auto;
+   display: block;
 }
 /*remerciement*/
 .remerciement{
@@ -248,17 +258,17 @@ button{
     100% { margin-left: 0%; }
 }
 /*rdv*/
-
+.rdv{
+    margin: 0 26%;
+}
 .groupe{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 100px;
+    margin-top:  50px;
     border: #ffffff 4px solid;
     border-radius: 10px;
     background-color: #e17055;
     color: aliceblue;
-    width: 400px;
+    width:750px;
+
 }
 .button{
     margin: 20px;
@@ -270,7 +280,11 @@ button{
     color: aliceblue;
 }
 .question{
-    margin: 20px;   
+    margin: 30px 0 0 30px;   
+    
+}
+input{
+    margin: 0 20px;
 }
 /*tache*/
 .tache{
@@ -278,41 +292,22 @@ button{
     position: absolute;
     z-index: -2;
 }
-/*contacte*/
-.contact{
-    margin-top: 120px;
-    display: flex;
-    margin-left: 20px;
-    flex-direction: column;
-    justify-content: center;
-}
-.reseauxun{
-    display: flex;
-    justify-content:flex-start;
-    flex-direction: row;
-    justify-content: center;
-}
-.reseauxdeux{
-    display: flex;
-    justify-content:flex-start;
-    flex-direction: row;
-    margin-top: 20px;
-    justify-content: center;
-}
-.picto{
-    margin-right: 20px;
-    width: 60%;
-}
 /*Slider news*/
+.titreblc{
+    color: #fff;
+}
+.fond{
+    background-color: rgb(225, 112, 85, .8);
+    height: 450px;
+}
 .News{
-    margin-top: 120px;
+    margin-top: 150px;
 }
 .custom-slider { display: none; }
 .slide-container {
     max-width: 800px;
     position: relative;
     margin: auto;
-    border: solid 1px #5b0000;
 }
 .prev, .next {
     cursor: pointer;
