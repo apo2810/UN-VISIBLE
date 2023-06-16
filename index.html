@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/favicon.jpg">
+    <link rel="icon" href="assets/images/favicon.png">
     <title>UN VISBLE</title>
 </head>
 <body>
@@ -54,7 +54,7 @@
     </section>
     <!--Jauge de dons-->
     <section class="jauge" id="dons">
-            <h2>Don obtenu </h2>
+            <h2>Don obtenu</h2>
             <div class="progressbar-wrapper">
                 <div title="downloading" class="progressbar donspourcentage" id="donspourcentage"><span id="pourcentage">1</span>%</div>
                </div>
@@ -124,46 +124,46 @@
                     <!-- mm for que id pour lier label et input -->
                     <input type="text" id="name" name="user_name" maxlength="15" required>
                     <!-- required  obliger de remplir le champs -->
-                    <label for="name">Prenom : </label>
+                    <label for="prename">Prenom : </label>
                     <!-- mm for que id pour lier label et input -->
-                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <input type="text" id="prename" maxlength="15" required>
                 </div>
                 <div class="question">
                     <label for="mail">E-mail :  </label>
-                    <input type="email" id="mail" name="user_mail" maxlength="30" value="text@gmail.com" >
+                    <input type="email" id="mail" maxlength="30" value="text@gmail.com" >
                     <!-- value attribu un valeur par défault -->
-                    <label for="name">Profession : </label>
+                    <label for="profession">Profession : </label>
                     <!-- mm for que id pour lier label et input -->
-                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <input type="text" id="profession" maxlength="15" required>
                     <!-- required  obliger de remplir le champs -->
                     <!-- readonly = empeche d'éffacer par default la valeur -->
                 </div>
                 <div class="question">
-                    <label for="name">Établissement : </label>
+                    <label for="school">Établissement : </label>
                     <!-- mm for que id pour lier label et input -->
-                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <input type="text" id="school" maxlength="15" required>
                     <!-- required  obliger de remplir le champs -->
-                    <label for="name">Département : </label>
+                    <label for="departement">Département : </label>
                     <!-- mm for que id pour lier label et input -->
-                    <input type="text" id="name" name="user_name" maxlength="15" placeholder="9300" required>
+                    <input type="text" id="departement" maxlength="15" placeholder="9300" required>
                     <!-- required  obliger de remplir le champs -->
                 </div>
                 <div class="question">
-                    <label for="name">Nombre d'élèves : </label>
+                    <label for="number">Nombre d'élèves : </label>
                     <!-- mm for que id pour lier label et input -->
-                    <input type="text" id="name" name="user_name" maxlength="15" required>
+                    <input type="text" id="number" maxlength="15" required>
                     <!-- required  obliger de remplir le champs -->
-                    <p>Classe :</p>
-                    <select name="Classe">
+                    <label for="classe" class="inline">Classe :</label>
+                    <select name="Classe" id="classe">
                         <option value="Classe" disabled>Aucun</option>
                         <option value="CE1">CE1</option>
                         <option value="CE2">CE2</option>
                         <option value="CM1">CM1</option>
                         <option value="CM2">CM2</option>
-                    </select>
+                    </select> <br/>
                     <label for="date">Date de l'intervention</label>
                     <!-- mm for que id pour lier label et input -->
-                    <input type="date" id="date" name="date" maxlength="15" required>
+                    <input type="date" id="date" maxlength="15" required>
                     <!-- required  obliger de remplir le champs -->
                 </div>
                 <div class="question">

@@ -37,7 +37,7 @@ h1{
     color: #383840;
 }
 h2{
-    margin-left: 40px;
+    text-align: center;
     color: #fc6f08;
     font-family: "Rubik_dirt";
     font-size: 30px;
@@ -142,6 +142,7 @@ button{
     float: left;
     margin-right: 20px;
     border-radius: 8px;
+    border: none;
  }
 .hero a{
     position: absolute;
@@ -166,6 +167,8 @@ button{
     color: white;
     border-radius: 15px;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -182,9 +185,12 @@ button{
      background-color: var(--progress);
 }
 .jauge{
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     position: relative;
-    margin: 120px ;
+
+    margin-top: 120px;
 }
 /*Achat*/
 .payment{
@@ -271,7 +277,9 @@ button{
 }
 /*rdv*/
 .rdv{
-    margin: 0 26%;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 70%;
 }
 .groupe{
     margin-top:  50px;
@@ -279,7 +287,6 @@ button{
     border-radius: 10px;
     background-color: #51aab6;
     color: aliceblue;
-    width:750px;
 
 }
 .button{
@@ -297,6 +304,9 @@ button{
 }
 input{
     margin: 0 20px;
+}
+.inline{
+    display: inline-block;
 }
 /*tache*/
 .tache{
