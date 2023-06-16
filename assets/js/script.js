@@ -1,16 +1,10 @@
-/*Bouton plus 
-$('button').click(function(){
-  $('.deux').toggle();
-
-  if($('.deux').css("display") == "block"){
-      $('.deux').css("display", "flex");
-      $('button').text("Moin d'infos");
-  }else{
-      $('button').text("Plus d'infos");
-  }
-  
-});*/
-/*jauge */
+//*Bouton plus 
+document.querySelector(".plus").addEventListener("click", apparait);
+function apparait(){
+  document.querySelector(".plusinfo").style.display = "block";
+  this.style.display = "none";
+}
+//*jauge
 var pourcentage = 0;
 function progression(){
     if(pourcentage<60){
