@@ -1,3 +1,6 @@
+//Menu burger
+
+
 //*Bouton plus 
 document.querySelector(".plus").addEventListener("click", apparait);
 function apparait(){
