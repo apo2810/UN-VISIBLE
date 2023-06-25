@@ -1,6 +1,13 @@
 //Menu burger
-
-
+function toggleMenu() {
+  var menu1 = document.getElementById("menu1");
+  var menu2 = document.getElementById("menu2");
+  var burger = document.getElementById("burger");
+  
+  menu1.classList.toggle("active");
+  menu2.classList.toggle("active");
+  burger.classList.toggle("active");
+}
 //*Bouton plus 
 document.querySelector(".plus").addEventListener("click", apparait);
 function apparait(){
