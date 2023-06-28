@@ -216,8 +216,8 @@ button{
 /*Achat*/
 .container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin-left: 10%;
+    margin-bottom: 20px;
 }
   
 .image {
@@ -226,34 +226,30 @@ button{
     text-align: center;
 }
 .image img{
-    width: 70%;
+    width: 90%;
     border-radius: 20px;
     margin: 20px 0;
 }
 .content {
     order: 2;
     flex: 2;
-    text-align: left;
-    margin-top: 40px;
+    margin-top: 5px;
+    justify-content: end;
+    margin-left: 20%;
 }
 .content p{
     color: #383840;
     font-size: 18px;
-    max-width: 350px;
+    max-width: 600px;
 }
 .content h3{
     color: #fff;
-    margin-top: 20px;
 }
 .payment{
     flex-direction: column;
     margin-top: 120px;
     background-color: #fc6e0880;
     height: 100%;
-}
-.contenu{
-    justify-content: center;
-    margin: 50px 120px;
 }
 /*Avis*/
 .avis{
@@ -313,6 +309,7 @@ button{
     100% { margin-left: 0%; }
 }
 /*rdv*/
+
 .rdv{
     margin-left: auto ;
     margin-right: auto;
@@ -325,33 +322,30 @@ button{
     background-color: #51aab6;
     color: aliceblue;
     display: flex;
+    justify-content: center;
 }
 fieldset{
-    align-items: center;
-    justify-content: center;
-    margin-right: 0;
+    align-items:flex-end;
     padding: 20px;
     display: flex;
 }
 .button{
     margin: 20px;
 }
- .button :hover{
-    background-color: #fc6f08;
-    border-radius: 4px;
-    border: none;
-    color: aliceblue;
-}
+
 .question{
-    margin: 30px 0 0 ;   
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
+}
+button :active{
+    background-color: #fc6f08;
 }
 label{
     margin-top: 5px;
 }
 input{
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 .inline{
     display: inline-block;
@@ -665,6 +659,7 @@ a {
             max-width: 400px;
             margin-left: auto;
             margin-right: auto;
+            text-align: center;
         }
         .content a{
             font-size: 15px;
